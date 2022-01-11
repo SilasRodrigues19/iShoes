@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chico Shoes</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Glide -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <!-- Nav -->
+  <main class="nav-wrapper">
+    <div class="container-fluid">
+      <div class="nav">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="logo">
+        </a>
+        <ul class="nav-menu menu-main">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <ul class="nav-menu">
+          <li>
+            <a href="#"><i class="bx bx-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bx-shopping-bag"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bx-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- End Nav -->
+
+  <!-- Hero -->
+  <section class="hero-section">
+    <div class="row">
+      <div class="col-4">
+        <div class="slide-info-wrapper">
+            <!-- Slide Info -->
+            <div class="slide-info active">
+               <div class="slide-name">
+                 <h3 class="top-down delay-2">
+                    Nike Air Vapormax Flyknit 3
+                 </h3>
+               </div>
+               <div class="slide-description">
+                 <p class="top-down delay-4">
+                  Apresenta linhas fluidas em 2 tons de construção Flyknit respirável e elástica para um estilo único, pronto para a rua.
+                 </p>
+                 <p class="top-down delay-6">
+                  Tecnologia VaporMax Air revolucionária mantém a elasticidade em seu passo com amortecimento dos dedos ao calcanhar.
+                 </p>
+               </div>
+               <div class="slide-action">
+                  <a href="#" class="btn btn-lg top-down delay-6">
+                    Shop Now
+                  </a>
+               </div>
+            </div>
+            <!-- End Slide Info -->
+
+            <!-- Slide Info -->
+            <div class="slide-info">
+              <div class="slide-name">
+                <h3 class="top-down delay-2">
+                  Nike Air Max 97
+                </h3>
+              </div>
+              <div class="slide-description">
+                <p class="top-down delay-4">
+                  Inspirado em trens-bala japoneses, o Nike Air Max 97 permite que você aumente a velocidade do seu estilo.
+                </p>
+                <p class="top-down delay-6">
+                  Adiciona cores novas e detalhes nítidos, ele permite que você corra com conforto de primeira classe.
+                </p>
+              </div>
+              <div class="slide-action">
+                 <a href="#" class="btn btn-lg top-down delay-6">
+                   Shop Now
+                 </a>
+              </div>
+           </div>
+           <!-- End Slide Info -->
+
+           <!-- Slide Info -->
+           <div class="slide-info">
+            <div class="slide-name">
+              <h3 class="top-down delay-2">
+                Nike Air Max 90 Essential 
+              </h3>
+            </div>
+            <div class="slide-description">
+              <p class="top-down delay-4">
+                Mantém as linhas de design clássicas do original de 1990 e o amortecimento que o tornou famoso.
+              </p>
+            </div>
+            <div class="slide-action">
+               <a href="#" class="btn btn-lg top-down delay-6">
+                 Shop Now
+               </a>
+            </div>
+         </div>
+         <!-- End Slide Info -->
+
+        </div>
+      </div>
+      <div class="col-8 slide-img-col">
+        <div class="slide-img-wrapper">
+          <div class="slide-img" id="slide-img">
+            <img src="./assets/images/products/tenis1.png" alt="Image Slide">
+            <img src="./assets/images/products/tenis2.png" alt="Image Slide">
+            <img src="./assets/images/products/tenis3.png" alt="Image Slide">
+          </div>
+        </div>
+        <div class="hero-slide-toggle">
+          <div class="hero-slide-toggle-prev" id="hero-slide-toggle-prev">
+              <i class="bx bx-chevron-left"></i>
+          </div>
+          <div class="hero-slide-index" id="hero-slide-index">
+            1/4
+          </div>
+          <div class="hero-slide-toggle-next" id="hero-slide-toggle-next">
+              <i class="bx bx-chevron-right"></i>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+
+  <!-- Glide -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Three JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <!-- Hover Effect -->
+  <script src="./assets/js/hover-effect.umd.js"></script>
+  <!-- My Script -->
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
