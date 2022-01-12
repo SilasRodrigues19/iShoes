@@ -1,11 +1,19 @@
 @mixin flexCenter() {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @mixin flexCenter2($justify-content) {
-  display: flex;
-  align-items: center;
-  justify-content: $justify-content;
+    display: flex;
+    align-items: center;
+    justify-content: $justify-content;
+}
+
+@mixin posAbsolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
