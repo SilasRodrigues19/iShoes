@@ -10,7 +10,7 @@
 <samp>
 <p align="center">
   <a href="https://github.com/SilasRodrigues19/iShoes">
-    <img src="./assets/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://freepikpsd.com/file/2020/08/converse-shoes-logo-png.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">iShoes</h3>
@@ -113,4 +113,4 @@ Project Link: [https://github.com/SilasRodrigues19/iShoes](https://github.com/Si
 [license-url]: https://github.com/SilasRodrigues19/iShoes/blob/master/LICENSE
 
 <br><hr>
-[🔼 Back to top](#Amazing-iShoes)
+[🔼 Back to top](#iShoes)
