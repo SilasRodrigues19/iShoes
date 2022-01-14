@@ -448,7 +448,7 @@
     }
     
     // Smart Phone
-    @media only screen and (min-width: 500px) {
+    @media only screen and (max-width: 500px) {
         .btn-lg {
             padding: .8rem 2.5rem;
             font-size: 1rem;
