@@ -10,7 +10,7 @@
 <samp>
 <p align="center">
   <a href="https://github.com/SilasRodrigues19/iShoes">
-    <img src="https://freepikpsd.com/file/2020/08/converse-shoes-logo-png.png" alt="Logo" width="80" height="80">
+    <img src="./assets/images/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">iShoes</h3>
